@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import {CartService} from 'tsl-commerce-services-a2/dist/services';
 
 @Component({
   selector: 'app-cart',
-  template: `
-    <h1>Cart works!</h1>
-  `,
+  templateUrl: './cart.component.html',
 })
-export class CartComponent {}
+export class CartComponent {
+  constructor(public cartService: CartService) {}
+}

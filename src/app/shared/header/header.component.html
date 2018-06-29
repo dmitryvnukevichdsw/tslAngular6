@@ -16,7 +16,10 @@
           <a class="nav-link" routerLink="/catalog" routerLinkActive="active">Catalog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/cart" routerLinkActive="active">Cart</a>
+          <a class="nav-link" routerLink="/cart" routerLinkActive="active">
+            Cart
+            <span class="badge badge-success">{{cartService.getCartItems().length}}</span>
+          </a>
         </li>
       </ul>
     </div>

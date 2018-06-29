@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import {CartService} from 'tsl-commerce-services-a2/dist/services';
 
 @Component({
   selector: 'app-catalog-list',
@@ -6,5 +7,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./list.component.scss']
 })
 export class ListComponent {
+  constructor(public cartService: CartService) {}
+
   @Input('items') items;
 }

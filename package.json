@@ -24,7 +24,7 @@
     "core-js": "^2.5.4",
     "jquery": "^3.3.1",
     "rxjs": "^6.0.0",
-    "tsl-commerce-services-a2": "git+https://github.com/dmitryvnukevichdsw/tslAngular6Services.git#0.0.5",
+    "tsl-commerce-services-a2": "git+https://github.com/dmitryvnukevichdsw/tslAngular6Services.git#0.0.7",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
