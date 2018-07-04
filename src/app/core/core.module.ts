@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ServicesModule } from 'tsl-commerce-services-a2/dist/services';
+import { ServicesModule } from '../../../services';
 
 @NgModule({
   imports: [

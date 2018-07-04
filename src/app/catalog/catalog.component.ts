@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {CatalogDataService} from 'tsl-commerce-services-a2/dist/services';
+import {CatalogDataService} from '../../../services';
 
 @Component({
   selector: 'app-catalog',
